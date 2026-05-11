@@ -279,15 +279,11 @@ class AppFooter extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   const Text(
-                    'Email: info@mgoat.co.ke',
+                    'Email: info@d86.us',
                     style: TextStyle(fontSize: 14, color: Colors.white70),
                   ),
                   const Text(
-                    'Phone: +254 700 000 000',
-                    style: TextStyle(fontSize: 14, color: Colors.white70),
-                  ),
-                  const Text(
-                    'Nairobi, Kenya',
+                    'Website: d86.us',
                     style: TextStyle(fontSize: 14, color: Colors.white70),
                   ),
                 ],
@@ -861,42 +857,57 @@ class _PolicyContent extends StatelessWidget {
           _PolicySection(
             title: '1. Introduction',
             content:
-                'Welcome to M Goat. We are committed to protecting your privacy and ensuring you have a positive experience using our mobile application and services. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform.',
+                'Welcome to Goat Marketplace ("we," "our," or "us"). We are Design 86 LLC, a company registered in the United States. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App"). By using the App, you agree to the collection and use of information in accordance with this policy.',
           ),
           _PolicySection(
             title: '2. Information We Collect',
             content:
-                'We collect information you provide directly to us, including your name, email address, phone number, and location when you create an account. We also collect information about your use of the app, including your browsing history, saved favorites, and chat messages with other users.',
+                'Personal Information: Account Information — When you register, we collect your email address and authentication credentials through Firebase Authentication (Google Sign-In or email/password). Profile Data — You may add a display name to your profile. Listing Information — When you sell goats, we store the listing details including photos, description, price, location, and your user ID.\n\nAutomatically Collected Information: Location Data — With your permission, we collect GPS coordinates to enable location-based features such as sorting listings by distance. Device Information — Basic device information for app functionality.\n\nUser-Generated Content: Listings — Photos, descriptions, pricing, and details you submit. Favorites — Listings you save to your favorites list.',
           ),
           _PolicySection(
             title: '3. How We Use Your Information',
             content:
-                'We use the information we collect to provide, maintain, and improve our services, to communicate with you about your account and our services, to process your transactions, and to comply with legal obligations. We may also use your information to personalize your experience and show you relevant listings.',
+                'We use your information to: Provide and maintain the App services; Authenticate your account and enable login; Display goat listings and allow browsing; Enable you to create, edit, and manage your own listings; Provide location-based features (distance sorting); Allow you to save favorite listings; Communicate with you regarding your account.',
           ),
           _PolicySection(
-            title: '4. Information Sharing',
+            title: '4. Data Sharing and Disclosure',
             content:
-                'We may share your information with other users when you choose to communicate with them through our platform. We may also share information with service providers who assist us in operating our app and conducting our business. We do not sell your personal information to third parties.',
+                'Service Providers: We use Firebase (Google) as our backend service provider for Authentication (Firebase Authentication), Database (Cloud Firestore), and Image storage (Firebase Storage). These services are operated by Google LLC under their own privacy policies.\n\nImage Upload: Listing images are uploaded to our external server (d86.us) for processing and storage.\n\nLegal Requirements: We may disclose information if required by law or in response to valid requests by public authorities.\n\nNo Sale of Data: We do not sell, rent, or trade your personal information to third parties for marketing purposes.',
           ),
           _PolicySection(
-            title: '5. Data Security',
+            title: '5. Data Retention',
             content:
-                'We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet is completely secure, and we cannot guarantee absolute security.',
+                'Your personal data is retained: While Active — As long as your account remains active. Upon Deletion — When you delete your account, your data is removed from our active systems.\n\nTo delete your account, go to Settings > Delete Account within the App. Once deleted, your account, listings, and favorites cannot be recovered.',
           ),
           _PolicySection(
             title: '6. Your Rights',
             content:
-                'You have the right to access, update, or delete your personal information at any time. You may also opt out of receiving promotional communications from us. To exercise these rights, please contact us at info@mgoat.co.ke.',
+                'Access and Control: You can access and review your personal information through your account.\n\nDeletion: You have the right to delete your account and associated data at any time via Settings > Delete Account in the App.\n\nOpt-Out: You can opt out of location services at any time through your device settings.',
           ),
           _PolicySection(
-            title: '7. Changes to This Policy',
+            title: '7. Children\'s Privacy',
             content:
-                'We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "last updated" date. Your continued use of the app after any changes indicates your acceptance of the new Privacy Policy.',
+                'The App is not intended for users under 18 years of age. We do not knowingly collect personal information from children under 18. If you become aware that a child has provided us with personal information, please contact us at info@d86.us.',
           ),
           _PolicySection(
-            title: '8. Contact Us',
+            title: '8. Security',
             content:
-                'If you have any questions about this Privacy Policy, please contact us at info@mgoat.co.ke or +254 700 000 000.',
+                'We implement appropriate technical and organizational security measures to protect your personal information, including: Secure authentication via Firebase; Encrypted data transmission (HTTPS); Secure cloud storage.\n\nHowever, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.',
+          ),
+          _PolicySection(
+            title: '9. Third-Party Services',
+            content:
+                'The App uses the following third-party services, each governed by their own privacy policies: Firebase (Google) — https://firebase.google.com/support/privacy; Google Sign-In — https://policies.google.com/privacy',
+          ),
+          _PolicySection(
+            title: '10. Changes to This Privacy Policy',
+            content:
+                'We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.',
+          ),
+          _PolicySection(
+            title: '11. Contact Us',
+            content:
+                'If you have any questions about this Privacy Policy, please contact us:\n\nDesign 86 LLC\nEmail: info@d86.us\nWebsite: https://d86.us',
           ),
         ],
       ),
@@ -981,52 +992,77 @@ class _TermsContent extends StatelessWidget {
           _TermsSection(
             title: '1. Acceptance of Terms',
             content:
-                'By downloading and using M Goat, you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use our application. We reserve the right to update these terms at any time, and your continued use of the app constitutes acceptance of any changes.',
+                'By downloading, installing, or using the Goat Marketplace mobile application ("App"), you ("User" or "you") agree to be bound by these Terms of Use ("Terms"). If you do not agree to these Terms, do not use the App.',
           ),
           _TermsSection(
-            title: '2. User Accounts',
+            title: '2. Eligibility',
             content:
-                'To use certain features of M Goat, you must create an account. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to provide accurate and complete information when creating your account and to update your information as necessary.',
+                'You must be at least 18 years old to use this App. By using the App, you represent and warrant that you are at least 18 years of age and have the legal capacity to enter into binding agreements.',
           ),
           _TermsSection(
-            title: '3. User Conduct',
+            title: '3. Account Registration',
             content:
-                'You agree not to use M Goat for any unlawful purpose or in any way that could damage, disable, or impair the app. You will not post false or misleading listings, harass other users, or engage in any activity that violates the rights of others. We reserve the right to remove content and terminate accounts that violate these rules.',
+                'Account Creation: To use certain features of the App, you must create an account through: Email and password registration; Google Sign-In via your Google account.\n\nAccount Responsibility: You are responsible for maintaining the confidentiality of your account credentials, all activities that occur under your account, and notifying us immediately of any unauthorized use.\n\nAccount Termination: We reserve the right to suspend or terminate your account at any time for any reason, including violation of these Terms.',
           ),
           _TermsSection(
-            title: '4. Listings and Transactions',
+            title: '4. User Conduct',
             content:
-                'Users are solely responsible for the accuracy of their listings. M Goat facilitates connections between buyers and sellers but does not guarantee the quality, health, or description of any goats listed on our platform. All transactions are between the buyer and seller, and M Goat is not a party to any such transaction.',
+                'Prohibited Content and Behavior: You agree NOT to post, list, or sell: Sexual content — Any sexually explicit material, nudity, or adult content; Illegal items — Anything prohibited by applicable law; Animals in distress — Livestock that appears unhealthy, neglected, or illegally obtained; Fraudulent listings — Misleading descriptions, false pricing, or scams; Harassment content — Defamatory, abusive, or threatening material.\n\nProhibited Activities: You will not impersonate any person or entity; engage in any activity that interferes with or disrupts the App; attempt to gain unauthorized access to any part of the App; or use the App for any illegal purpose.',
           ),
           _TermsSection(
-            title: '5. Prohibited Listings',
+            title: '5. Marketplace Transactions',
             content:
-                'The following types of listings are prohibited on M Goat: listing of goats that are not physically available, misrepresenting the health or age of animals, listing animals in violation of Kenyan law, and any content that is illegal, offensive, or harmful. We reserve the right to remove any listing that violates these guidelines.',
+                'User-to-User Transactions: Goat Marketplace is a peer-to-peer marketplace. We do not buy, sell, or take ownership of any listings; guarantee the quality, health, or condition of any animal; handle payments between buyers and sellers; or provide mediation or dispute resolution for transactions. Any transaction conducted through the App is solely between the buyer and seller.\n\nTransaction Responsibility: Users are solely responsible for negotiating terms of sale, verifying the health and condition of animals, arranging payment and delivery, and complying with applicable laws regarding animal sales.\n\nNo Warranty: The App is provided "as is" without any warranty regarding the accuracy, reliability, or quality of listings.',
           ),
           _TermsSection(
-            title: '6. Intellectual Property',
+            title: '6. Listing Rules',
             content:
-                'M Goat and its content, including logos, graphics, and software, are the property of M Goat and are protected by Kenyan and international copyright laws. You may not copy, modify, or distribute our content without our written permission.',
+                'Listing Requirements: When creating a listing, you must provide accurate and complete information; include clear photos of the actual animal; state a clear and honest price; and disclose any known health issues.\n\nListing Ownership: You represent that you have the right to sell any items you list and that your listings do not infringe on any third party\'s rights.',
           ),
           _TermsSection(
-            title: '7. Limitation of Liability',
+            title: '7. Refunds and Disputes',
             content:
-                'M Goat provides the app "as is" without any warranties of any kind. We do not guarantee that the app will be error-free or uninterrupted. In no event shall M Goat be liable for any indirect, incidental, or consequential damages arising from your use of the app.',
+                'Refunds are handled at the discretion of individual sellers. We do not process refunds or intervene in payment disputes between buyers and sellers. Any refund requests should be directed to the seller with whom you transacted.',
           ),
           _TermsSection(
-            title: '8. Indemnification',
+            title: '8. Intellectual Property',
             content:
-                'You agree to indemnify and hold harmless M Goat and its officers, directors, and employees from any claims, damages, or expenses arising from your use of the app or your violation of these Terms of Use.',
+                'All content, features, and functionality of the App are owned by Design 86 LLC and are protected by copyright, trademark, and other intellectual property laws.',
           ),
           _TermsSection(
-            title: '9. Termination',
+            title: '9. Limitation of Liability',
             content:
-                'We may terminate or suspend your account at any time for any reason, including violation of these Terms of Use. Upon termination, your right to use the app will immediately cease. You may also delete your account at any time through the app settings.',
+                'To the maximum extent permitted by law: The App is provided "as is" and "as available"; We do not guarantee the App will be uninterrupted, secure, or error-free; We are not responsible for any loss or damage resulting from transactions between users, the accuracy of listing information, the health or condition of any animal, or any interaction outside the App.\n\nIn no event shall Design 86 LLC be liable for any indirect, incidental, special, consequential, or punitive damages, regardless of the cause of action or whether we have been advised of the possibility of such damages.',
           ),
           _TermsSection(
-            title: '10. Governing Law',
+            title: '10. Indemnification',
             content:
-                'These Terms of Use shall be governed by and construed in accordance with the laws of Kenya. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts of Kenya.',
+                'You agree to indemnify, defend, and hold harmless Design 86 LLC and its officers, directors, employees, and agents from any claims, damages, losses, liabilities, costs, or expenses arising out of: your use of the App; your violation of these Terms; your violation of any rights of another party; or your listings or content.',
+          ),
+          _TermsSection(
+            title: '11. Dispute Resolution',
+            content:
+                'Binding Arbitration: Any dispute, claim, or controversy arising out of or relating to these Terms or the App shall be resolved by binding arbitration administered by the American Arbitration Association under its Commercial Arbitration Rules.\n\nArbitration Location: The arbitration shall take place in the United States, and the arbitration shall be conducted in English.\n\nException: Despite the above, we may seek injunctive or other equitable relief in any court of competent jurisdiction for intellectual property violations.\n\nClass Action Waiver: You agree that any arbitration shall be conducted on an individual basis only — not as a class, consolidated, or representative action.',
+          ),
+          _TermsSection(
+            title: '12. Governing Law',
+            content:
+                'These Terms shall be governed by and construed in accordance with the laws of the United States and the State of Delaware, without regard to conflict of law provisions.',
+          ),
+          _TermsSection(
+            title: '13. Changes to Terms',
+            content:
+                'We may modify these Terms at any time. Continued use of the App after modifications constitutes acceptance of the updated Terms.',
+          ),
+          _TermsSection(
+            title: '14. Severability',
+            content:
+                'If any provision of these Terms is found to be unenforceable, the remaining provisions shall remain in full force and effect.',
+          ),
+          _TermsSection(
+            title: '15. Contact Us',
+            content:
+                'If you have questions about these Terms, please contact us:\n\nDesign 86 LLC\nEmail: info@d86.us\nWebsite: https://d86.us',
           ),
         ],
       ),
@@ -1118,25 +1154,19 @@ class ContactPage extends StatelessWidget {
                       _ContactInfo(
                         icon: Icons.email,
                         title: 'Email',
-                        value: 'info@mgoat.co.ke',
+                        value: 'info@d86.us',
                       ),
                       const SizedBox(height: 16),
                       _ContactInfo(
-                        icon: Icons.phone,
-                        title: 'Phone',
-                        value: '+254 700 000 000',
+                        icon: Icons.language,
+                        title: 'Website',
+                        value: 'd86.us',
                       ),
                       const SizedBox(height: 16),
                       _ContactInfo(
-                        icon: Icons.location_on,
-                        title: 'Address',
-                        value: 'Nairobi, Kenya',
-                      ),
-                      const SizedBox(height: 16),
-                      _ContactInfo(
-                        icon: Icons.access_time,
-                        title: 'Business Hours',
-                        value: 'Mon - Fri: 9AM - 6PM',
+                        icon: Icons.business,
+                        title: 'Company',
+                        value: 'Design 86 LLC',
                       ),
                     ],
                   ),
